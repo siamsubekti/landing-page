@@ -825,7 +825,7 @@ ul.place li span{
 	color: #f02b63;
 }
 ul.place li.sort{
-	float:left;
+	/* float:left; */
 }
 ul.place li.by{
 	float:right;
@@ -1549,19 +1549,60 @@ h3.ghj {
 }
 /*-- --*/
 /*--checkout--*/
-.close1,.close2,.close3,.close4{
+.close1 {
   background: url('../images/close.png') no-repeat 0px 0px;
   cursor: pointer;
   width: 28px;
   height: 28px;
   position: absolute;
-    right: 0px;
-  top: 0px;
+  right: 29px;
+  top: 95px;
+  z-index: 2;
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
+.close2 {
+	background: url('../images/close.png') no-repeat 0px 0px;
+	cursor: pointer;
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	  right: 29px;
+	top: 30rem;
+	z-index: 2;
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+  }
+  .close3 {
+	background: url('../images/close.png') no-repeat 0px 0px;
+	cursor: pointer;
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	  right: 0px;
+	top: 0px;
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+  }
+  .close4 {
+	background: url('../images/close.png') no-repeat 0px 0px;
+	cursor: pointer;
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	  right: 0px;
+	top: 0px;
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+  }
 .check-in {
 	width:100%;
 	  margin: 2em 0 2em;
@@ -1569,6 +1610,7 @@ h3.ghj {
 ul.unit{
 	background:#333;
 	padding:1em;
+	padding-bottom: 2.5em;
 }
 ul.unit li {
 	display:inline-block;
@@ -1587,11 +1629,12 @@ ul.unit li {
 }
 ul.cart-header{
  padding:1em;
-	background:#f8f8f8;
-	  border-bottom: 1px solid #ff5d56;
+ padding-bottom: 19rem;
+ background:#f8f8f8;
+ border-bottom: 1px solid #ff5d56;
 }
 ul.cart-header1{
- padding:1em;
+ padding-bottom: 20rem;
 	background:#f8f8f8;
 	  border-bottom: 1px solid #ff5d56;
 }
